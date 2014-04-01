@@ -3,6 +3,7 @@
 
 # User-specific files
 *.sln.docstates
+*.suo
 
 # Build results
 [Dd]ebug/
