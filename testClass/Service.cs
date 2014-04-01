@@ -12,12 +12,13 @@ namespace Ser
     {
         public string GetData(int value)
         {
-            return string.Format("You entered: {0}", value);
+            return string.Format("hello{0} ", value);
         }
 
 
         public string GetUser(string Id)
         {
+            
             return new User().GetUser(Convert.ToInt32(Id)).ToString();
         }
     }
